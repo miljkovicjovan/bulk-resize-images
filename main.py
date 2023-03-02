@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[11]:
-
-
 # Import the modules needed
 from PIL import Image
 import os
@@ -32,10 +26,3 @@ for x in images:
         img.save(x)
 
 print('The images have been succesfully resized.')
-
-
-# In[ ]:
-
-
-
-
